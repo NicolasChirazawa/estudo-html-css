@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir este arquivo em dispositivos 
+        diferentes ou simplesmente aumente e diminua
+        o tamanho da página do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>
+            Infelizmente seu navegador não é compatível com o áudio, 
+            então baixe ele <a href="midia/guanacast-33.mp3">aqui</a>.
+        </p>
+    </audio>
+</body>
+</html>
