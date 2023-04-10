@@ -26,7 +26,7 @@
 
         color: white;
         font-family: var(--fonte-titulo);
-        font-size: 50px;
+        font-size: 8vw;
         text-align: center;
 
         padding-top: 70px;
@@ -58,15 +58,15 @@
     body > main > p{
 
         font-family: var(--fonte-padrao);
-        font-size: 20px;
+        font-size: 3vw;
 
-        margin-left: 20px;
+        margin-left: 40px;
         margin-top: 80px;
     }
 
     body > main > div{
 
-        height: 500px;
+        height: 60vw;
         width: 100%;
         display: inline-block;
         position: relative;
@@ -91,14 +91,14 @@
     body > main > div > p{
 
         font-family: var(--fonte-padrao);
-        font-size: 20px;
+        font-size: 3vw;
         color: white;
         display: inline-block;
         background-color: rgba(0, 0, 0, 0.658);
 
         position: absolute;
 
-        margin-top: 70px;
+        margin-top: 5vw;
         padding: 20px;
 
     }
