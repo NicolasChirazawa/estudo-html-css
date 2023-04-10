@@ -60,7 +60,7 @@
         font-family: var(--fonte-padrao);
         font-size: 3vw;
 
-        margin-left: 40px;
+        margin-left: 30px;
         margin-top: 80px;
     }
 
@@ -73,6 +73,7 @@
 
         background: black center center no-repeat fixed;
         background-size: cover;
+        box-shadow: inset 6px 6px 13px 0px black rgba(0, 0, 0, 0.500);
 
         margin-top: 100px;
 
@@ -93,13 +94,16 @@
         font-family: var(--fonte-padrao);
         font-size: 3vw;
         color: white;
+        text-shadow: 1px 1px 0px black;
         display: inline-block;
-        background-color: rgba(0, 0, 0, 0.658);
+        background-color: rgba(0, 0, 0, 0.500);
 
         position: absolute;
 
+
         margin-top: 5vw;
         padding: 20px;
+        padding-left: 30px;
 
     }
 
@@ -114,9 +118,21 @@
         font-family: Arial, Helvetica, sans-serif;
         background-color: black;
         text-align: center;
-        font-size: 1.2vw;
+        font-size: 15px;
 
         padding-top: 5px;
         padding-bottom: 5px;
         margin-top: 5vw;
+    }
+
+    body > footer > a{
+
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    body > footer > a:hover{
+
+        text-decoration-line: underline;
     }
