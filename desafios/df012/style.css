@@ -71,7 +71,7 @@
         display: inline-block;
         position: relative;
 
-        background: black center no-repeat fixed;
+        background: black center center no-repeat fixed;
         background-size: cover;
 
         margin-top: 100px;
