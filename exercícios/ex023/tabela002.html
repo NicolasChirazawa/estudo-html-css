@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightgray;
+            
+            padding: 10px;
+        }
+
+        thead > tr > th{
+
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        thead, tfoot{
+
+            background-color: grey;
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n){
+
+            background-color: lightgray;
+            
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--Anatomia para Tabelas grandes
+    TABLE
+        THEADER
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    -->
+    <table>
+        <caption>
+
+            População das Unidades Federativas
+
+        </caption>
+
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 90px;">População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+            <tr>
+                <td>Paraná </td>
+                <td>10 444 526 </td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+            <tr>
+                <td>Paraná </td>
+                <td>10 444 526 </td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+            <tr>
+                <td>Paraná </td>
+                <td>10 444 526 </td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+            <tr>
+                <td>Paraná </td>
+                <td>10 444 526 </td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+            </tr>
+            <tr>
+                <td>Paraná </td>
+                <td>10 444 526 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td>101 310 913</td>
+        </tfoot>
+    </table>
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni harum quaerat quam, vero reiciendis excepturi ratione recusandae iste placeat assumenda illo saepe voluptate optio voluptates, blanditiis porro. Velit hic adipisci tenetur alias? Assumenda quaerat, temporibus maxime ducimus quis minima repellendus! Minima pariatur eaque sapiente quae dolorem tempora tenetur repudiandae ipsam corporis ab suscipit optio alias consectetur cumque iusto, odit iste numquam nobis iure magnam. Magnam provident laudantium quia aliquid voluptatibus asperiores! Nemo commodi beatae ea quos nostrum quia dicta? Sit eum maiores placeat, nobis reprehenderit esse quibusdam</p>
+    <p>labore cupiditate iste veniam ad sed modi voluptas autem eveniet tenetur deserunt minus, tempore temporibus! Maiores maxime reiciendis iste et consequatur iusto reprehenderit dolorum. Cumque molestiae repudiandae et repellendus, adipisci aliquam quo, quos facere magnam aspernatur officia exercitationem quasi laborum! Nisi adipisci ipsa earum vel blanditiis incidunt dolores rem sunt nulla, dignissimos dolorem animi harum veniam neque culpa voluptates quibusdam maiores officia cum nam debitis, cupiditate ullam consequuntur tempora! Error minima esse quas eius totam maiores. Excepturi amet recusandae aliquam nostrum, architecto reprehenderit exercitationem. Deleniti iure inventore quas veritatis nisi dignissimos obcaecati magni nulla recusandae non vitae neque atque ipsam blanditiis eius, molestiae accusantium nihil voluptatem similique quis voluptatibus illo doloremque minima. Quasi aut facere ullam facilis sed similique nesciunt totam laudantium odit natus expedita deserunt beatae suscipit reiciendis tempore nobis possimus</p>
+    <p>incidunt, consequuntur consectetur aliquid, dolorem porro magni recusandae? Necessitatibus expedita perspiciatis voluptatibus, officia reprehenderit repellendus nesciunt pariatur id libero! Vitae atque accusamus, minus ratione amet illum maxime suscipit iusto cum architecto consectetur voluptatum obcaecati alias ab beatae magnam blanditiis deserunt similique, dicta ad a! Sunt eos rem, nesciunt perspiciatis quos iste quaerat deleniti ea aliquid expedita a impedit cum! Praesentium laudantium dolores, molestias quos id est qui at illo vero temporibus modi nulla aperiam odio libero voluptatem, eligendi debitis reprehenderit aut architecto, eius necessitatibus provident officia! Vero quidem accusamus ipsam sed quo laudantium eaque ab, maiores reiciendis, magni natus eveniet, nihil dolore ad. Blanditiis deserunt explicabo perspiciatis incidunt molestias vel atque corporis earum enim sunt? Ea distinctio, hic suscipit ut voluptatem quod totam labore nobis molestias consectetur odit at. Minima nihil, animi incidunt veniam minus possimus consequatur, quasi cum fugit quas blanditiis aspernatur cumque! Quod hic et, provident molestias porro unde obcaecati modi illo eveniet excepturi autem repellat placeat dolores quis temporibus esse voluptas consequatur. Quasi velit, rem cum reiciendis dolore inventore incidunt assumenda minima placeat, aut non nemo eos aspernatur, consectetur itaque temporibus in blanditiis! Pariatur sit amet veniam quidem omnis in? Nesciunt doloremque laboriosam, voluptas dignissimos eaque quos at. Nisi sit praesentium nihil odio tempore aliquam ducimus voluptatum itaque, atque sint vero ea rem libero sequi, in culpa accusantium eveniet impedit adipisci quis, aspernatur officiis! Totam adipisci laboriosam rerum vel dolor aspernatur architecto magni quis dolorem debitis. Nam tenetur architecto nemo libero dolore sit quibusdam consequatur placeat voluptate, laborum similique? Vero cum ipsam repellendus quibusdam officiis ex iusto cupiditate nemo perspiciatis provident! Minus, quas ea laudantium vero dolor neque omnis similique assumenda beatae, laborum accusantium ab tenetur aspernatur reiciendis!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim veniam nihil tenetur, commodi cumque praesentium, optio recusandae dicta eligendi at sequi? At vitae quidem ipsam, dolor neque iure velit aliquid voluptatibus earum omnis excepturi ipsum explicabo unde nostrum! Eaque eos aliquam sapiente nulla reiciendis error officia, praesentium tenetur rem facilis obcaecati ad enim expedita. Illo tenetur repellat fuga, eum deleniti sunt esse, explicabo odio velit beatae quia cum laudantium aliquid doloribus. Culpa, accusamus. Maiores minus animi molestias sapiente molestiae doloremque libero vero illo quibusdam ipsum, quas, omnis fugit. Est voluptatibus autem illo nostrum id. Dolorem aut id nisi delectus veniam nobis praesentium rerum magnam repudiandae soluta aperiam, accusantium aspernatur consectetur suscipit! Iste pariatur tempore numquam! Quos, magnam. Reiciendis, soluta! Fuga voluptas error rerum quaerat alias vel totam dolore ullam. Aliquam consequuntur minus autem velit possimus neque dolorum ducimus natus, quasi officiis qui modi voluptates doloribus. Laboriosam alias ratione molestiae hic porro harum odio, facere praesentium dolorum similique tempore a suscipit repudiandae debitis aliquam officia iusto dolorem cum odit qui. Accusantium eius dolorem sint est iste nobis quas eaque nemo ipsum modi maiores tempore, error dolore ea, cupiditate non voluptatem recusandae laudantium voluptatibus voluptate ipsam ipsa, optio ab totam. Consequatur, praesentium iure adipisci omnis deleniti rem necessitatibus quod voluptatem</p>
+    <p>aperiam nobis error, eos voluptatibus reiciendis assumenda, a corrupti! Architecto pariatur accusantium sapiente tenetur assumenda illo. Nulla accusantium odio vel tenetur harum corporis nobis architecto hic dicta eaque. Praesentium vero est libero dignissimos odio quo impedit repudiandae commodi, cum sint quisquam, quidem nisi distinctio quibusdam laudantium, tenetur reprehenderit facere aperiam placeat! Laudantium debitis officia nesciunt laborum. Consequatur magnam aliquam a voluptate modi illum reprehenderit. Blanditiis iure cum doloribus, velit laborum quia repellat iste, tempore vero illo pariatur quae aperiam dolorum quos neque et veniam quibusdam nemo consequuntur! Doloremque voluptas rem optio minima?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur ipsam nam modi dignissimos deleniti odit natus quis. Reprehenderit possimus natus rem ad assumenda quae nostrum, accusamus fugiat laborum est tempore. Maiores, impedit eos cumque quisquam quibusdam facilis enim a illo consequuntur voluptatem, alias laudantium quas inventore id praesentium sapiente dicta! Vero, nulla! Voluptas dolor, repellat fuga consequuntur eligendi accusantium quas eaque repudiandae eum ducimus porro consectetur voluptate vero et perspiciatis at odio sint autem, excepturi explicabo aperiam laudantium voluptatum, iusto soluta? Ab harum magnam doloribus velit ad officia architecto dolorem illum vero, atque totam exercitationem, ea possimus expedita quam.</p>
+</body>
+</html>
