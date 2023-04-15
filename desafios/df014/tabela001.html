@@ -17,7 +17,7 @@
             font-weight: bold;
             text-align: center;
 
-            width: 600px;
+            width: 400px;
         }
 
         thead, tfoot{
@@ -26,9 +26,28 @@
             color: white;
         }
 
+
         th, td{
 
             border: 1px solid black;
+        }
+
+        .alinhar_esquerda{
+
+            text-align: left;
+        }
+
+        .coloracao_media{
+
+            background-color: #707370;
+            color: white;
+            text-align: left;
+        }
+
+        .nome{
+
+            background-color: #707370;
+            color: white;
         }
 
     </style>
@@ -50,51 +69,52 @@
         <tbody>
             <tr>
                 <th rowspan="4" scope="rowgroup">Exatas</th>
-                <td>Matemática</td>
+                <td class="alinhar_esquerda">Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <td>Física</td>
+                <td class="alinhar_esquerda">Física</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <td>Química</td>
+                <td class="alinhar_esquerda">Química</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <td>Biologia</td>
+                <td class="alinhar_esquerda">Biologia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
+            <tr>
+                <th colspan="4" scope="row" class="coloracao_media">Média de Exatas</th>
+                <td class="nome">0.0</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" scope="rowgroup">Humanas</td>
+                <th>História</th>
+                <th>0.0</th>
+                <th>0.0</th>
+                <th>0.0</th>
+            </tr>
+            <tr>
+                <th>Filosofia</th>
+                <th>0.0</th>
+                <th>0.0</th>
+                <th>0.0</th>
+
+            </tr>
+            <tr>
+                <th colspan="4" scope="row" class="coloracao_media">Média de Humanas</th>
+                <td class="nome">0.0</td>
             </tr>
         </tbody>
-
-        <tfoot>       
-        <th colspan="4" scope="row">Média de Exatas</th>
-        <th>0.0</th>
-        </tfoot>
     </table>
-            <table>
-            <tbody>
-                <th rowspan="2" scope="rowgroup">Humanas</th>
-                <td>História</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            </th>
-                <td>Geogra</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            </tbody>
-        </table>
 </body>
 </html>
