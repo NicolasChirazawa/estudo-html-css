@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+div.container{
+
+    background-color: #333;
+
+    display: grid;
+
+    /* Para informar individualmente os itens, é necessário primeiro informar quantas colunas tem */
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+
+    border: 3px solid red;
+    padding: 15px;
+}
+
+.container div{
+
+    background-color: #ccc;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+#item-1{
+
+    /* É necessário informar no 'end' um número acima */
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#item-2{
+
+    /* É necessário informar no 'end' um número acima */
+    grid-row-start: 2;
+    grid-row-end: 4;
+}

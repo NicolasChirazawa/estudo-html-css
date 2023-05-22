@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+/* Template início */
+
+div.container{
+
+    background-color: #333;
+    height: 35vh;
+
+    display: grid;
+
+    /* Definir o tamanho e quantidade de colunas */
+    grid-template-columns: 50px auto 10%;
+    grid-template-rows: 30% 70%;
+
+    /* Destacar um item do outro, dá para fazer por row ou column também caso necessário */
+    gap: 5px;
+    row-gap: 10px;
+
+    border: 3px solid red;
+    padding: 15px;
+
+    margin-bottom: 100px;
+}
+
+.container div{
+
+    background-color: #ccc;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+/* Template area */
+
+div.container-2{
+
+    background-color: #333;
+
+    display: grid;
+
+    grid-template-areas: 
+    'header header header header header'
+    'sidebar content content content content'
+    'footer footer footer footer footer';
+    gap: 6px;
+
+
+    border: 3px solid red;
+    padding: 15px;
+
+}
+
+.container-2 div{
+
+    background-color: #ccc;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+#header{
+
+    grid-area: header;
+}
+
+#sidebar{
+
+    grid-area: sidebar;
+    height: 50vh;
+}
+
+#content{
+
+    grid-area: content;
+    height: 50vh;
+}
+
+#footer{
+
+    grid-area: footer;
+}
