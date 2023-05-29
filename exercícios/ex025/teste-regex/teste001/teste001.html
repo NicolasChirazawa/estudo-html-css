@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .error-msg{
+
+            border: 1px solid red;
+        }
+
+        input:invalid{
+        
+            border: 1px solid red;
+        }
+    
+
+    </style>
+
+    <title>Teste Regex</title>
+</head>
+<body>
+    <form action="estudo.html" method="post">
+
+        <label for="inumero">Número: </label>
+        <input type="text" name="numero" id="inumero" pattern="([0-9]{2})" required oninvalid="setCustomValidity('Por favor, insira um número de três dígitos.')">
+        <div class="error-msg" style="display: none">Por favor, insira um número de três dígitos.</div>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
